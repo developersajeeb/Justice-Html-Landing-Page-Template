@@ -1,0 +1,32 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'EB Garamond', serif;
+}
+
+p,
+a,
+span {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Banner Section */
+
+.banner-img {
+    background-image: linear-gradient(0deg, rgb(0 0 0 / 90%), rgb(0 0 0 / 10%)), url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Service */
+
+.box-sh {
+    background-image: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+}
+
+.box-hover:hover {
+    background-image: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+}
